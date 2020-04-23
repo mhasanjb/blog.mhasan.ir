@@ -31,7 +31,41 @@ prose:
   siteurl: "http://blog.mhasan.ir"
   media: "images"
   metadata: 
-    ['_applications','_blogs']: 
+    # Applications Collection Pros Settings
+    _applications: 
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+          
+      - name: "title"
+        field:
+          label: "Post Title"
+          placeholder: "Please Enter A Title For Your Post (Like My-First-Blog)"
+          element: "text"
+          value: ""
+          
+      - name: "categories"
+        field:
+          label: "Post Category"
+          placeholder: "Please Enter A Category For Your Post (Like Windows)"
+          element: "text"
+          value: ""
+          
+      - name: "comments"
+        field:
+          label: "Activate Comments"
+          element: "checkbox"
+          value: "false"
+          
+      - name: "published"
+        field:
+          label: "Publish The Post"
+          element: "checkbox"
+          value: "true"
+
+    # Blogs Collection Pros Settings
+    _blogs: 
       - name: "layout"
         field:
           element: "hidden"
