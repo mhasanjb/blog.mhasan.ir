@@ -1,6 +1,7 @@
 ---
 title: ForceBindIP - GUI
 layout: post
+categories: Windows
 ---
 
 ### ForceBindIP - GUI
