@@ -34,8 +34,35 @@ prose:
     _applications: 
       - name: "layout"
         field:
-          element: "text"
+          element: "hidden"
           value: "post"
+          
+      - name: "title"
+        field:
+          label: "Post Title"
+          placeholder: "Please Enter A Title For Your Post (Like My-First-Blog)"
+          element: "text"
+          value: ""
+          
+      - name: "categories"
+        field:
+          label: "Post Category"
+          placeholder: "Please Enter A Category For Your Post (Like Windows)"
+          element: "text"
+          value: ""
+          
+      - name: "comments"
+        field:
+          label: "Activate Comments"
+          element: "checkbox"
+          value: "false"
+          
+      - name: "published"
+        field:
+          label: "Publish The Post"
+          element: "checkbox"
+          value: "true"
+          
 
 # Includes an icon in the footer for each username you enter
 footer-links:
