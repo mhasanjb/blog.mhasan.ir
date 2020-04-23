@@ -6,10 +6,6 @@ comments: false
 published: true
 ---
 
-### ForceBindIP - GUI
-
-
-# ForceBindIP-Gui
 A GUI For ForceBindIP
 
 A Simple Application Written With AutoIt Programming language   
