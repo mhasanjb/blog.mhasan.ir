@@ -16,13 +16,13 @@ avatar:
 #
 
 # Collections
-collections: 
-  - Blog
-      output: true
-      permalink: /Blog/:category/:path/
-  - Application
-      output: true
-      permalink: /Application/:category/:path/
+collections:
+  Blog:
+    output: true
+    permalink: /Blog/:categories/:path/
+  Application:
+    output: true
+    permalink: /Application/:categories/:path/
 
 # Includes an icon in the footer for each username you enter
 footer-links:
