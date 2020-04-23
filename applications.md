@@ -3,12 +3,12 @@ layout: default
 title: Application
 ---
 
-{% for applications in site.applications %}
+{% for application in site.applications %}
 
-<a href="{{ applications.url | prepend: site.baseurl }}">
-  <h2>{{ applications.title }}</h2>
+<a href="{{ application.url | prepend: site.baseurl }}">
+  <h2>{{ application.title }}</h2>
 </a>
 
-<p class="post-excerpt">{{ applications.description | truncate: 160 }}</p>
+<p class="post-excerpt">{{ application.description | truncate: 160 }}</p>
 
 {% endfor %} 
