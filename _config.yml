@@ -27,7 +27,7 @@ collections:
 
 # Prose
 prose:
-  ignore: ['_includes', '_layouts', '_posts', '_sass', 'js', '_config.yml']
+  ignore: ['/_includes/', '/_layouts', '_posts/', '_sass', 'js', '_config.yml']
   siteurl: "http://blog.mhasan.ir"
   media: "images"
   metadata: 
