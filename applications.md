@@ -8,7 +8,7 @@ title: Application
     <span>Changed2</span>
     <!-- Categories -->
     <div id="archives">
-        {% for category in site.categories %}
+        {% for category in applications.categories %}
         <div class="archive-group">
             {% capture category_name %}{{ category | first }}{% endcapture %}
             <div id="#{{ category_name | slugize }}"></div>
