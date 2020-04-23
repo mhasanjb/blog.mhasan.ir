@@ -1,6 +1,6 @@
 ---
 title: Purple
-layout: page
+layout: post
 ---
 
 # Features
