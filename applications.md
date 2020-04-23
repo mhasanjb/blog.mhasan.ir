@@ -4,7 +4,8 @@ title: Application
 ---
 
 <div class="posts font-small">
-    {% for applications in applications.categories %}
+    <span>Changed</span>
+    {% for applications in site.categories %}
         <h1>{{ applications.categories }}</h1>
     {% endfor %}
 
