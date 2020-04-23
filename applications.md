@@ -6,10 +6,10 @@ title: Application
 
 <div class="posts font-small">
 
-    <span>Change</span>
+    <span>000000</span>
     <!-- Categories -->
-    {% for post in applications.categories.Windows %}
-        <li><span>{{ post.date | date_to_string }}</span>
+    {% for category in categories %}
+        <h1>{{category}}</h1>
     {% endfor %}
     <!-- Categories -->
 
