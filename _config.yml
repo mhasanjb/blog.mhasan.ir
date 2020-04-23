@@ -23,6 +23,19 @@ collections:
   blogs:
     output: true
     permalink: /blogs/:categories/:path/
+    
+
+# Prose
+prose:
+  ignore: ['_includes', '_layouts', '_posts', '_sass', 'js', '_config.yml']
+  siteurl: "http://blog.mhasan.ir"
+  media: "images"
+  metadata: 
+    _applications: 
+      - name: "layout"
+        field:
+          element: "text"
+          value: "post"
 
 # Includes an icon in the footer for each username you enter
 footer-links:
