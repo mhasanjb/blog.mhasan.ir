@@ -1,14 +1,20 @@
 ---
 layout: default
-title: Blog
+title: Application
 ---
 
-{% for blog in site.blogs %}
+<div class="blogs">
+  {% for blogs in site.blogs %}
+    <article class="blogs">
 
-<a href="{{ blog.url | prepend: site.baseurl }}">
-  <h2>{{ blog.title }}</h2>
-</a>
+      <h1><a href="{{ site.baseurl }}{{ blogs.url }}">{{ blogs.title }}</a></h1>
 
-<p class="post-excerpt">{{ blog.description | truncate: 160 }}</p>
+      <div class="entry">
+        {{ blogs.excerpt }}
+      </div>
 
-{% endfor %} 
+      <a href="{{ site.baseurl }}{{ blogs.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
+
