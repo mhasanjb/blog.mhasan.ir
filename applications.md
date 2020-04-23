@@ -6,20 +6,11 @@ title: Application
 
 <div class="posts font-small">
 
-    <span>Change001</span>
+    <span>Change002</span>
     <!-- Categories -->
-    <div id="archives">
-        {% for categories in applications.categories %}
-        <div class="archive-group">
-            {% capture category_name %}{{ category | first }}{% endcapture %}
-            <div id="#{{ category_name | slugize }}"></div>
-            <p></p>
-
-            <h3 class="category-head">{{ category_name }}</h3>
-            <a name="{{ category_name | slugize }}"></a>
-        </div>
-        {% endfor %}
-    </div>
+    {% for category in applications.categories %}
+        <span>{{ category_name }}</span>
+    {% endfor %}
     <!-- Categories -->
 
     {% for applications in site.applications %}
