@@ -8,7 +8,7 @@ layout: default
     {% for applications in site.applications %}
     <article class="applications">
         <h1>Applications</h1>
-        <span> {{ page.date | date: "%B %e, %Y" }} >> </span>
+        <span> {{ applications.date | date: "%B %e, %Y" }} >> </span>
         <a href="{{ site.baseurl }}{{ applications.url }}">{{ applications.title }}</a>
     </article>
     {% endfor %}
@@ -17,7 +17,7 @@ layout: default
     {% for blogs in site.blogs %}
     <article class="blogs">
         <h1>Blogs</h1>
-        <span> {{ page.date | date: "%B %e, %Y" }} >> </span>
+        <span> {{ blogs.date | date: "%B %e, %Y" }} >> </span>
         <a href="{{ site.baseurl }}{{ blogs.url }}">{{ blogs.title }}</a>
     </article>
     {% endfor %}
