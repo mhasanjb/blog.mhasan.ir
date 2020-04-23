@@ -4,18 +4,20 @@ title: Application
 ---
 
 <div class="posts font-small">
-    {% for categories in applications.categories %}
-        {% for applications in site.applications %}
-        <article class="applications">
+    {% for applications in applications.categories %}
+        <h1>{{ applications.categories }}</h1>
+    {% endfor %}
 
-            <h4><a href="{{ site.baseurl }}{{ applications.url }}">{{ applications.title }}</a></h4>
+    {% for applications in site.applications %}
+    <article class="applications">
 
-            <div class="entry">
-                <span>{{ applications.excerpt }}</span>
-            </div>
+        <h4><a href="{{ site.baseurl }}{{ applications.url }}">{{ applications.title }}</a></h4>
 
-            <a href="{{ site.baseurl }}{{ applications.url }}" class="read-more">Read More</a>
-        </article>
-        {% endfor %}
+        <div class="entry">
+            <span>{{ applications.excerpt }}</span>
+        </div>
+
+        <a href="{{ site.baseurl }}{{ applications.url }}" class="read-more">Read More</a>
+    </article>
     {% endfor %}
 </div>
