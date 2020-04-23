@@ -12,4 +12,16 @@
 
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
+  
+  {% for blogs in site.blogs %}
+    {
+
+      "title"    : "{{ blogs.title | escape }}",
+      "url"      : "{{ site.baseurl }}{{ blogs.url }}",
+      "category" : "{{ blogs.categories }}",
+      "tags"     : "{{ blogs.tags | join: ', ' }}",
+      "date"     : "{{ blogs.date }}"
+
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
 ]
