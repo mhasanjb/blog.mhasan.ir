@@ -1,1 +1,6 @@
-blogs
+---
+title: Blog
+layout: post
+---
+
+Blog
