@@ -5,7 +5,6 @@ categories: Windows
 comments: false
 published: true
 ---
-
 A GUI For ForceBindIP
 
 A Simple Application Written With AutoIt Programming language   
@@ -48,7 +47,3 @@ C:\Program Files\ForceBindIP
 ## Github
 
 [![github]({{site.baseurl}}/images/github-logo.png)](https://github.com/mhasanjb/ForceBindIP-Gui)
-  
-
-
-
