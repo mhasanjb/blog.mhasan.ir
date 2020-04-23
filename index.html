@@ -3,25 +3,31 @@ layout: default
 ---
 
 <div class="posts">
-  List Of Posts in Application & Blogs    
-  Example :    
-  1 - Lastest Applications     
-  2 - Latest Blogs    
-<!-- 
-  {% for post in site.posts %}
-    <article class="post">
--->
-<!-- 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
--->
-<!-- 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
--->
-<!-- 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+
+    <!-- Applications -->
+    {% for applications in site.applications %}
+    <article class="applications">
+
+        <h1><a href="{{ site.baseurl }}{{ applications.url }}">{{ applications.title }}</a></h1>
+
+        <div class="entry">
+            {{ applications.excerpt }}
+        </div>
+        <a href="{{ site.baseurl }}{{ applications.url }}" class="read-more">Read More</a>
     </article>
-  {% endfor %}
--->
+    {% endfor %}
+
+    <!-- Blogs -->
+    {% for blogs in site.blogs %}
+    <article class="blogs">
+
+        <h1><a href="{{ site.baseurl }}{{ blogs.url }}">{{ blogs.title }}</a></h1>
+
+        <div class="entry">
+            {{ blogs.excerpt }}
+        </div>
+        <a href="{{ site.baseurl }}{{ blogs.url }}" class="read-more">Read More</a>
+    </article>
+    {% endfor %}
+
 </div>
