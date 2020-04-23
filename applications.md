@@ -4,7 +4,7 @@ title: Application
 ---
 
 <h1>{{ applications.categories }}</h1>
-<div class="posts" style="font-size:small;">
+<div class="posts font-small">
   {% for applications in site.applications %}
     <article class="applications">
       
