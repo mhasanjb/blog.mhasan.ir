@@ -15,6 +15,15 @@ avatar:
 # Flags below are optional
 #
 
+# Collections
+collections: 
+  - Blog
+    output: true
+    permalink: /Blog/:category/:path/
+  - Application
+      output: true
+      permalink: /Application/:category/:path/
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
