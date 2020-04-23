@@ -7,7 +7,7 @@ layout: default
     <!-- Applications -->
     {% for applications in site.applications %}
     <article class="applications">
-        <h1>Applications</h1>
+        <h2>Applications</h2>
         <span> {{ applications.date | date: "%B %e, %Y" }} » </span>
         <a href="{{ site.baseurl }}{{ applications.url }}">{{ applications.title }}</a>
     </article>
@@ -16,7 +16,7 @@ layout: default
     <!-- Blogs -->
     {% for blogs in site.blogs %}
     <article class="blogs">
-        <h1>Blogs</h1>
+        <h2>Blogs</h2>
         <span> {{ blogs.date | date: "%B %e, %Y" }} » </span>
         <a href="{{ site.baseurl }}{{ blogs.url }}">{{ blogs.title }}</a>
     </article>
