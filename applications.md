@@ -1,14 +1,15 @@
 ---
 layout: default
+permalink: /applications/
 title: Application
 ---
 
 <div class="posts font-small">
 
-    <span>Change</span>
+    <span>Change001</span>
     <!-- Categories -->
     <div id="archives">
-        {% for category in applications.categories %}
+        {% for categories in applications.categories %}
         <div class="archive-group">
             {% capture category_name %}{{ category | first }}{% endcapture %}
             <div id="#{{ category_name | slugize }}"></div>
