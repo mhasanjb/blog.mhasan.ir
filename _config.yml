@@ -31,7 +31,7 @@ prose:
   siteurl: "http://blog.mhasan.ir"
   media: "images"
   metadata: 
-    _applications: 
+    ['_applications','_blogs']: 
       - name: "layout"
         field:
           element: "hidden"
