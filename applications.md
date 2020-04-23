@@ -6,10 +6,10 @@ title: Application
 
 <div class="posts font-small">
 
-    <span>111111</span>
+    <span>00</span>
     <!-- Categories -->
-    {% for categories in applications.categories %}
-        <h1>{{applications.categories}}</h1>
+    {% for applications in post.categories %}
+        <h1>{{categories}}</h1>
     {% endfor %}
     <!-- Categories -->
 
