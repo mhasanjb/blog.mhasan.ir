@@ -46,5 +46,9 @@ or
 C:\Program Files\ForceBindIP   
 
 ## Github
-[![github]({{site.baseurl}}/images/github-logo.png)](https://github.com/mhasanjb/ForceBindIP-Gui "Github")
+
+[![github]({{site.baseurl}}/images/github-logo.png)](https://github.com/mhasanjb/ForceBindIP-Gui)
+  
+
+
 
