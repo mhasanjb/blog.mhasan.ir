@@ -3,15 +3,15 @@ layout: default
 title: Application
 ---
 
-<div class="posts">
+<div class="posts font-small">
   {% for applications in site.applications %}
     <article class="applications">
       
       <h1>{{ applications.categories }}</h1>
-      <h1><a href="{{ site.baseurl }}{{ applications.url }}">{{ applications.title }}</a></h1>
+      <h4><a href="{{ site.baseurl }}{{ applications.url }}">{{ applications.title }}</a></h4>
 
       <div class="entry">
-        {{ applications.excerpt }}
+        <span>{{ applications.excerpt }}</span>
       </div>
 
       <a href="{{ site.baseurl }}{{ applications.url }}" class="read-more">Read More</a>
