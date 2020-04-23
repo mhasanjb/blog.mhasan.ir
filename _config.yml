@@ -17,12 +17,12 @@ avatar:
 
 # Collections
 collections:
-  Blog:
+  application:
     output: true
-    permalink: /Blog/:categories/:path/
-  Application:
+    permalink: /application/:categories/:path/
+  blog:
     output: true
-    permalink: /Application/:categories/:path/
+    permalink: /blog/:categories/:path/
 
 # Includes an icon in the footer for each username you enter
 footer-links:
