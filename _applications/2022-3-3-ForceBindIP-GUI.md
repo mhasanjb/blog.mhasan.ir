@@ -1,16 +1,10 @@
 ---
-title: ForceBindIP - GUI
 layout: post
+title: ForceBindIP - GUI
 categories: Windows
 comments: false
+published: true
 ---
 
 ### ForceBindIP - GUI
 
-ABCD    
-EFGH    
-IJKL   
-MNOP   
-QRST    
-UVWX   
-YZ    
