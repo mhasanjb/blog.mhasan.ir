@@ -10,7 +10,7 @@
       "tags"     : "{{ applications.tags | join: ', ' }}",
       "date"     : "{{ applications.date }}"
 
-    } ,{% endunless %}
+    } ,
   {% endfor %}
   
   {% for blogs in site.blogs %}
