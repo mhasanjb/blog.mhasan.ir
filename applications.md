@@ -4,7 +4,7 @@ title: Application
 ---
 
 <div class="posts font-small">
-    {{ for categories in applications.categories }}
+    {% for categories in applications.categories %}
         {% for applications in site.applications %}
         <article class="applications">
 
