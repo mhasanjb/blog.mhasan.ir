@@ -18,8 +18,8 @@ avatar:
 # Collections
 collections: 
   - Blog
-    output: true
-    permalink: /Blog/:category/:path/
+      output: true
+      permalink: /Blog/:category/:path/
   - Application
       output: true
       permalink: /Application/:category/:path/
