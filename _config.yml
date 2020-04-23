@@ -41,7 +41,7 @@ prose:
       - name: "title"
         field:
           label: "Post Title"
-          placeholder: "Please Enter A Title For Your Post (Like My-First-Blog)"
+          placeholder: "Please Enter A Title For Your Post (Like My-First-Application)"
           element: "text"
           value: ""
           
@@ -81,7 +81,7 @@ prose:
       - name: "categories"
         field:
           label: "Post Category"
-          placeholder: "Please Enter A Category For Your Post (Like Windows)"
+          placeholder: "Please Enter A Category For Your Post (Like Development)"
           element: "text"
           value: ""
           
