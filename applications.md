@@ -5,9 +5,9 @@ title: Application
 
 <div class="posts font-small">
 
-    <span>Changed4</span>
+    <span>Changed5</span>
     <!-- Categories -->
-    {% for categories in applications.categories %}
+    {% for applications in applications.categories %}
         <li><span>{{ category_name | slugize }}</span></li>
     {% endfor %}
     <!-- Categories -->
