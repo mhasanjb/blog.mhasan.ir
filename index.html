@@ -5,18 +5,18 @@ layout: default
 <div class="posts home-posts">
 
     <!-- Applications -->
+    <h2>Applications</h2>
     {% for applications in site.applications %}
     <article class="applications">
-        <h2>Applications</h2>
         <span> {{ applications.date | date: "%B %e, %Y" }} » </span>
         <a href="{{ site.baseurl }}{{ applications.url }}">{{ applications.title }}</a>
     </article>
     {% endfor %}
 
     <!-- Blogs -->
+    <h2>Blogs</h2>
     {% for blogs in site.blogs %}
     <article class="blogs">
-        <h2>Blogs</h2>
         <span> {{ blogs.date | date: "%B %e, %Y" }} » </span>
         <a href="{{ site.baseurl }}{{ blogs.url }}">{{ blogs.title }}</a>
     </article>
