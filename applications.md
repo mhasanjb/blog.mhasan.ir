@@ -6,10 +6,11 @@ title: Application
 
 <div class="posts font-small">
 
-    <span>1</span>
+    <span>0</span>
     <!-- Categories -->
-    {{page.categories | capitalize | join: ', '}}
-    {{post.categories | capitalize | join: ', '}}
+    {% for category in applications.categories %}
+        {{category}}
+    {% endfor %}
     <!-- Categories -->
 
     {% for applications in site.applications %}
