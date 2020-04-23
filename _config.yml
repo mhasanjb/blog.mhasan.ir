@@ -27,7 +27,7 @@ collections:
 
 # Prose
 prose:
-  ignore: ['/_includes/', '/_layouts/', '/_posts/', '/_sass/', '/js/', '.gitignore', 'CNAME', 'LICENSE', 'README.md', 'about.md', 'applications.md', 'blogs.md', 'index.html', 'search.json', 'search.md', 'style.scss', '_config.yml']
+  ignore: ['_includes/', '_layouts/', '_posts/', '_sass/', 'js/', '404.md', '.gitignore', 'CNAME', 'LICENSE', 'README.md', 'about.md', 'applications.md', 'blogs.md', 'index.html', 'search.json', 'search.md', 'style.scss', '_config.yml']
   siteurl: "http://blog.mhasan.ir"
   media: "images"
   metadata: 
