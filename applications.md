@@ -6,7 +6,8 @@ title: Application
 <div class="posts">
   {% for applications in site.applications %}
     <article class="applications">
-
+      
+      <h1>{{ applications.categories }}</h1>
       <h1><a href="{{ site.baseurl }}{{ applications.url }}">{{ applications.title }}</a></h1>
 
       <div class="entry">
