@@ -17,7 +17,7 @@ layout: default
     <h2>Blogs</h2>
     {% for blogs in site.blogs %}
     <article class="blogs">
-        <span> {{ blogs.date | date: "%B %e, %Y" }} » </span>
+        <span class="post-date"> {{ blogs.date | date: "%B %e, %Y" }} » </span>
         <a href="{{ site.baseurl }}{{ blogs.url }}">{{ blogs.title }}</a>
     </article>
     {% endfor %}
