@@ -4,7 +4,7 @@ permalink: /applications/
 title: Application
 ---
 
-<div class="posts font-small">
+<div class="applications font-small">
     {% for applications in site.applications %}
     <article class="applications">
 
