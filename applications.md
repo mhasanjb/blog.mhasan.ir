@@ -9,7 +9,7 @@ title: Application
     <article class="applications">
 
         <h4>
-            <span class="post-date"> {{ applications.date | date: "%B %e, %Y" }} » </span>
+            <span class="post-date "> {{ applications.date | date: "%B %e, %Y" }} » </span>
             <a href="{{ site.baseurl }}{{ applications.url }}">{{ applications.title }}</a>
         </h4>
 
