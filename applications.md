@@ -5,6 +5,13 @@ title: Application
 ---
 
 <div class="applications font-small">
+    <!-- Category -->
+    <span>0</span>
+    {% for applications in site.applications %}
+        {{applications.categories}}
+    {% endfor %}
+    <!-- Category -->
+
     {% for applications in site.applications %}
     <article class="applications">
 
