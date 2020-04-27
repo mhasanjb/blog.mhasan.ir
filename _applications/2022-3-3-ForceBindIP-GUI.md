@@ -12,7 +12,9 @@ A Simple Application Written With AutoIt Programming language
 
 
 ## Download
-[ForceBindIP - GUI](https://raw.githubusercontent.com/mhasanjb/ForceBindIP-Gui/master/ForceBindIP%20-%20Gui.exe "Download ForceBindIP - GUI")
+[ForceBindIP - GUI (x86)](https://raw.githubusercontent.com/mhasanjb/ForceBindIP-Gui/master/ForceBindIP%20-%20Gui.exe "Download ForceBindIP - GUI")
+
+[ForceBindIP - GUI (x64)](https://raw.githubusercontent.com/mhasanjb/ForceBindIP-Gui/master/ForceBindIP%20-%20Gui_x64.exe "Download ForceBindIP - GUI")
 
 
 ## Automatic 
