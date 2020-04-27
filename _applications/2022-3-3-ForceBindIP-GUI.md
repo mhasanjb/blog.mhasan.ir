@@ -11,6 +11,10 @@ A Simple Application Written With AutoIt Programming language
 ![ForceBindIP - GUI -M.Hasan Jabbari]({{site.baseurl}}/images/Preview5.png)
 
 
+## Download
+[ForceBindIP - GUI](https://raw.githubusercontent.com/mhasanjb/ForceBindIP-Gui/master/ForceBindIP%20-%20Gui.exe "Download ForceBindIP - GUI")
+
+
 ## Automatic 
 1. Run ForceBindIP-Gui.exe ( or compile .au3 it then open if u want )    
 2. Click On "Download and Config"
