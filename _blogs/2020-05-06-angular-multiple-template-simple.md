@@ -10,11 +10,13 @@ with this your app will look like this :
 
 ```
 Home
+
     Gold
     Silver
     etc.
 
 Blog
+
 	Gold
     Silver
     etc.
