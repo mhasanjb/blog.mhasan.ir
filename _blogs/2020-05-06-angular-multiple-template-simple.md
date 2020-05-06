@@ -5,7 +5,7 @@ published: true
 title: Angular Multiple Template Simple
 categories: angular
 ---
-Simplest way to have multiple template layout for each component in angular
+Simplest way to have multiple template layout for each component in angular    
 with this your app will look like this : 
 
 ```
