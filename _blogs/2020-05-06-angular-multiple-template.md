@@ -8,6 +8,8 @@ categories: angular
 Creating multiple layout & templates for angular    
 With this trick you can have multiple layouts for each component ( home , about , etc )    
 
+Go to ["Angular Multiple Template Simple"](https://blog.mhasan.ir/blogs/angular/2020-05-06-angular-multiple-template-simple/) if you are new    
+
 1 --> create new project with routing
 ```
 ng new client --skip-tests=true
