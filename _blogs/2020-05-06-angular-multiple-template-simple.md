@@ -23,7 +23,7 @@ Blog
 ```
 
 # More explanation
-Imagine letting your users to choise a layout, so they will choice a comftable layout for them self.    
+Imagine letting your users to choise a layout, so they will choice a comfortable layout for themself.    
 of course you have to create more layouts , but after all it's so good for your users.
 ( it's like gmail template choesing - modern, simple, etc.  )
 
