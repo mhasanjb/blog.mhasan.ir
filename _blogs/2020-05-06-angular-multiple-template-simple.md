@@ -41,6 +41,12 @@ cd multiple-template
 3 - create components ( home , blog , about , profile , settings , etc )
 ```
 ng generate component home
+
+or
+
+ng g c home
+ng g c about
+ng g c profile
 ```
 
 4 - 
