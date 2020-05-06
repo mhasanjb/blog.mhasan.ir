@@ -22,6 +22,11 @@ Blog
     etc.
 ```
 
+# More explanation
+Imagine letting your users to choise a layout, so they will choice a comftable layout for them self.    
+of course you have to create more layouts , but after all it's so good for your users.
+( it's like gmail template choesing - modern, simple, etc.  )
+
 # How to use
 1 - create project with angular cli
 ```
@@ -37,6 +42,9 @@ cd multiple-template
 ```
 ng generate component home
 ```
+
+4 - 
+
 
 # Requirements 
 1 - Install node.js ( download LTS if you are new )
