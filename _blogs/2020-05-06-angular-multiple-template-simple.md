@@ -10,14 +10,12 @@ with this your app will look like this :
 
 ```
 Home
-	Default
     Gold
     Silver
     etc.
 
 Blog
-	Default
-    Gold
+	Gold
     Silver
     etc.
 ```
