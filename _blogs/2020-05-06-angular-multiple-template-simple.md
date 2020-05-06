@@ -92,7 +92,33 @@ export class HomeComponent implements OnInit {
 }
 ```
 
-6 - 
+6 - go to src/app/app-routing.module.ts
+```typescript
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+import { HomeComponent } from "./home/home.component"
+
+
+const routes: Routes = [
+  {
+      path: "home",
+      component: HomeComponent
+  },
+]
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
+```
+
+7 - go to src/app/app.component.html and remove every thing and copy/paste this code:
+```html
+<router-outlet></router-outlet>
+```
+
+8 - 
 
 
 # Requirements 
