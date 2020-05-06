@@ -2,7 +2,7 @@
 layout: post
 comments: true
 published: true
-title: angular-multiple-template-simple
+title: Angular Multiple Template Simple ( Step - By Step )
 categories: angular
 ---
 Simplest way to have multiple template layout for each component in angular
