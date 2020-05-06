@@ -118,7 +118,11 @@ export class AppRoutingModule { }
 <router-outlet></router-outlet>
 ```
 
-8 - 
+8 - ng serve ( and wait for angular to make everything ready )
+
+9 - go to -> localhost:4200/home
+
+10 - that's it :)
 
 
 # Requirements 
