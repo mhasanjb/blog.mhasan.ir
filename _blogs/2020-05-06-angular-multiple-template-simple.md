@@ -101,7 +101,7 @@ import { HomeComponent } from "./home/home.component"
 
 const routes: Routes = [
   {
-      path: "home",
+      path: "home", // you can also make it / ,then your home components will open in root (localhost:4200) 
       component: HomeComponent
   },
 ]
@@ -124,6 +124,7 @@ export class AppRoutingModule { }
 
 10 - that's it :)
 
+this is minimalest way to create multiple layout in angular, if you need 
 
 # Requirements 
 1 - Install node.js ( download LTS if you are new )
