@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+comments: false
 published: true
 title: Angular Multiple Template
 categories: angular
@@ -102,4 +102,4 @@ export class HomeBootComponent implements OnInit {
 
 10 - End :)
 
-*4 --> Generate:Boots *you can skip page-content and use only app.component.html
+*you can skip page-content and use only app.component.html
