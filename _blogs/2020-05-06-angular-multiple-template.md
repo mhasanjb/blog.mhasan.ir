@@ -25,7 +25,7 @@ ng g c boot/blog/blog-boot
 ```
 
 5 - Add starting app from in boot/page-content/page-content.component.html and app.component.html
-```
+```html
 <router-outlet></router-outlet>
 ```
 
@@ -39,7 +39,7 @@ ng g c layout/blog/silver/silver-blog-footer
 ```
 
 7 - Add routing in : app-routing.module.ts
-```
+```typescript
 import { HomeBootComponent } from "./boot/home/home-boot/home-boot.component"
 import { BlogBootComponent } from "./boot/blog/blog-boot/blog-boot.component"
 
@@ -56,7 +56,7 @@ const routes: Routes = [
 ```
 
 8 - Add Controller (data service / condition / etc.) to boot/home/home-boot.component.ts and boot/blog/blog-boot.component.ts
-```
+```typescript
 export class HomeBootComponent implements OnInit {
     listOfTemplates = ['gold', 'silver']
     template = 'gold'
@@ -71,7 +71,7 @@ export class HomeBootComponent implements OnInit {
 9 - Add HTML selectors in boot/home , boot/blog
 
 9-1: boot/home/home-boot.component.html
-```
+```html
 <ng-template [ngIf]="template == 'gold'">
     <app-gold-home-footer></app-gold-home-footer>
 </ng-template>
@@ -86,7 +86,7 @@ export class HomeBootComponent implements OnInit {
 ```
 
 9-2: boot/blog/blog-boot.component.html
-```
+```html
 <ng-template [ngIf]="template == 'gold'">
     <app-gold-blog-footer></app-gold-blog-footer>
 </ng-template>
