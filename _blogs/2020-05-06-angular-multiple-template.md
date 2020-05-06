@@ -8,9 +8,9 @@ categories: angular
 Creating multiple layout & templates for angular    
     
 1 --> create new project with routing
-```
+``
 ng new client --skip-tests=true
-```
+``
 
 2 - cd client
 
