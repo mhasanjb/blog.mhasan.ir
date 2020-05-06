@@ -101,7 +101,7 @@ import { HomeComponent } from "./home/home.component"
 
 const routes: Routes = [
   {
-      // path: "/" // you can also make it / ,then your home components will open in root (localhost:4200) 
+      // path: "" // you can also make it '' ,then your home components will open in root (localhost:4200) 
       path: "home", // localhost:4200/home
       component: HomeComponent
   },
