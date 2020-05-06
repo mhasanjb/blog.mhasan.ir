@@ -126,7 +126,7 @@ this is minimalist way to create multiple layout in angular
 you have to make a service to get data from your backend and put for template.   
 
 # Requirements 
-1 - Install node.js ( download LTS if you are new )
+1 - Install node.js ( download LTS if you are new )    
 [Download Node.JS From Official Website ](https://nodejs.org/en/download/ "Node.JS")
 
 2 - Install angular/cli
