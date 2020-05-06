@@ -135,10 +135,10 @@ npm install -g @angular/cli
 ```
 
 # Read more here
-[Setup angular](https://angular.io/guide/setup-local)
+[Setup angular](https://angular.io/guide/setup-local)    
 [Angular CLI](https://angular.io/cli)
 
-[Angular ngIF](https://angular.io/api/common/NgIf)
+[Angular ngIF](https://angular.io/api/common/NgIf)    
 [Angular Router](https://angular.io/api/router/Router)
 
 [Angular HttpClient](https://angular.io/api/common/http/HttpClient)
