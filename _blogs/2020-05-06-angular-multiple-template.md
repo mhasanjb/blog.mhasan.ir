@@ -18,11 +18,11 @@ ng new client --skip-tests=true
 3 - ng serve
 
 4 --> Generate:Boots
-`
+```
 ng g c boot/page-content (optional)
 ng g c boot/home/home-boot
 ng g c boot/blog/blog-boot
-`
+```
 
 5 - Add starting app from in boot/page-content/page-content.component.html and app.component.html
 ```html
