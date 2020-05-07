@@ -68,6 +68,34 @@ ng g c profile
 <!-- ... -->
 ```
 
+4-(1) - you can also switch case , instead of if for your template ( replace this with step-4 )
+```html
+<div [ngSwitch]="template">
+
+    <!-- Gold -->
+    <ng-container *ngSwitchCase="'gold'">
+        Gold
+    </ng-container>
+
+
+    <!-- Silver -->
+    <ng-container *ngSwitchCase="'silver'">
+        Silver
+    </ng-container>
+
+
+    <!-- More layouts here -->
+    <!-- ... -->
+
+
+    <!-- Default -->
+    <ng-container *ngSwitchDefault>
+        Default
+    </ng-container>
+
+</div>
+```
+
 5 - go to src/app/home/home.component.ts
 ```typescript
 import { Component, OnInit } from '@angular/core';
